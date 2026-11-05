@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title> Consultar filme</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/adicionar.css"/>
+        <script src="js/get.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Lista de heróis </h1>
+            <p>Prática com o método Get: buscar e exibir os heróis da  API do codeverse</p>
+        </header>
+        <main>
+            <a href="pages/cadastro.html"> Ir para o cadastro </a>
+            <section id="conteiner-titulo-lista">
+                <h2 id="titulo-lista">Heróis cadastrados</h2>
+                <p>Os heróis  são cadastrados automaticamtne</p>
+                <p id="resposta"></p>
+                <ul id="lista-herois"></ul>
+            </section>
+            <template id="modelo-heroi">
+                <li>
+                    <section class="card-capa">
+                        <img alt=""/>
+                    </section>
+                    <section class="card-counteudo">
+                        <h3 class="nome"></h3>
+                        <p><strong>Poder:</strong> <span class="poder"></span></p>
+                        <p><strong>Universo:</strong> <span class="universo "></span></p>
+                        <p><strong>Fraqueza:</strong> <span class="fraqueza"></span></p>
+
+                    </section>
+                </li>
+
+            </template>
+        </main>
+    </body>
+</html>
